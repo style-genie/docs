@@ -7,8 +7,8 @@ Style Genie is a fashion recommendation system. It uses a combination of machine
 
 ## Style-Genie File Structure
 
-- repo  https://github.com/style-genie/
-- overview https://github.com/style-genie/style-genie
+- repo  https://github.com/agent505/
+- overview https://github.com/style-genie/docs/blob/main/agent505/README_AGENT505.md
 ```
 ├── backend/
 │   ├── postgres/               # PostgreSQL database configuration
