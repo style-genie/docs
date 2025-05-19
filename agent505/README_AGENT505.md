@@ -9,14 +9,34 @@ With Agent505, you can:
 - Connect agents to various data sources and tools.
 - Build AI-powered applications that can automate tasks, provide information, and assist users in various domains.
 
-## Overview
+
+## Agent505 File Structure
+
+```
+Agent505/
+├── .env.sample
+├── main.py
+├── pyproject.toml
+├── requirements.txt
+├── setup.py
+├── src/
+│   ├── __init__.py
+│   ├── server.py
+│   └── session.py
+└── stylegenie.egg-info/
+    ├── dependency_links.txt
+    ├── PKG-INFO
+    ├── requires.txt
+    ├── SOURCES.txt
+    └── top_level.txt
+```
 
 The project is structured as follows:
 
 - `Agent505/main.py`: This file contains the main application logic, including the Agent505 class, which manages sessions and agents.
 - `Agent505/src/session.py`: This file defines the Session class, which manages the context and state of a conversation between a user and a model. It also defines the Agent class, which represents an autonomous entity that interacts with a session and a model to process messages and provide responses.
 - `Agent505/src/server.py`: This file defines the FastAPI server and the ConnectionManager class, which manages the websocket connections.
-- `Agent505/pyproject.toml`: This file contains the project's metadata, including its dependencies.
+
 
 ## Dependencies
 
